@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+
+	<link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+
+	<main>
+    <nav>
+          <div class="links">
+            <ul>
+              <li>
+                <a href="index.html">HOME</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+
+		<section class="section-contact">
+			<div class="container">
+				<h1>Get In Touch</h1>
+				<p>Let's talk about any future projects or any collaboration opportunies you may be seeking! </p>
+				<form action="https://formspree.io/f/xleakjqa"
+                method="POST">
+					<div class="form-group">
+						<label for="firstname">first name *</label>
+						<input 
+							type="text" 
+							name="firstname" 
+							id="firstname" 
+							required 
+							class="form-element"
+							placeholder="firstName" />
+					</div>
+					<div class="form-group">
+						<label for="lastname">last name*</label>
+						<input type="text" name="lastname" id="lastname" required class="form-element" placeholder="lastName" />
+					</div>
+					<div class="form-group">
+						<label for="email">email me*</label>
+						<input type="email" name="email" id="email" required class="form-element" placeholder="yourEmail.here" />
+					</div>
+					<div class="form-group full">
+						<label for="message">let's connect</label>
+						<textarea name="message" id="message" class="form-element" placeholder="I have a website idea! Let's talk.."></textarea>
+					</div>
+					<div class="submit-group">
+						<input type="submit" value="SEND MESSAGE" />
+					</div>
+				</form>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
